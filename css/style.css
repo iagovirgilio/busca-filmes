@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+} 
+
+html{
+    display: inline;
+}
+ 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0f0f0
+}
+
+.page-wrap{
+    width: 100vw;
+}
+
+ul{
+    list-style: none;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    background-color: #072025;
+    width: 100vw;
+    height: 173px;
+}
+
+.topo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+}
+
+#logo{
+    width: 111px;
+    height: 101px;
+    padding-top: 20px;
+    margin-right: 30px;
+}
+
+.menu-nav{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.item-nav{
+    color: white;
+    font-size: 1em;
+    margin-right: 20px;
+}
+
+.title-nav, #logo:hover{
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    width: 100%;
+    border: solid 1px #f0f0f0;
+    background-color: #ffffff;
+    -webkit-box-shadow: -1px 10px 184px -25px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 10px 184px -25px rgba(0,0,0,0.75);
+    box-shadow: -1px 10px 184px -25px rgba(0,0,0,0.75);
+    
+}
+
+input{
+    width: 800px;
+    height:46px ;
+    border: 1px solid white;
+    padding-left: 10px;
+    outline: none;
+    font-style: italic;
+    font-weight: light;
+    font-size: 100%;
+    line-height: 1.2em;
+    color: #acacac;
+    box-sizing: border-box;
+    text-indent: 0;
+}
+
+.icon{
+    opacity: 0.5;
+}
+
+.icon:hover{
+    opacity: 1;
+}
+
+.conteudo-busca{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#resultado{
+   margin: auto;
+   text-align: center;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.lista-filmes{
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 37px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 37px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 37px -8px rgba(0,0,0,0.75);
+}
+
+.poster{
+    width: 200px;   
+    height: 300px
+}
+
+.title{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
